@@ -1,0 +1,29 @@
+.nav {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navlink {
+  display: flex;
+  flex-grow: 1;
+}
+.navlink > ul {
+  display: flex;
+}
+.navlink > ul > * {
+  list-style: none;
+  margin: 10px 50px 20px 0;
+}
+.icon {
+  width: 80px;
+
+  cursor: pointer;
+}
+.icon:hover {
+  stroke: black;
+  stroke-width: 1;
+  color: white;
+}
